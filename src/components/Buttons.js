@@ -8,7 +8,7 @@ class Buttons extends React.Component{
    } 
     render (){
 
-        return<div>
+        return<div id="goaaal">
             <button className="but" onClick={ (e) => { this.clicked(""); } }>Start</button>
         </div>;
 
