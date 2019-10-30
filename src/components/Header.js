@@ -11,7 +11,7 @@ class Header extends React.Component {
             <img className="smoke" alt="smoke" src={Smoke}/>
             <div className="logo">
                 <img className="skull" alt="skull" src={Logo}/>
-                <h1 className="title">LeMauvaisCoin</h1>
+                <h1 className="title">Le Mauvais Coin</h1>
             </div>
             </>
         )
