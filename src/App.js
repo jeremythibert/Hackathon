@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
+import AutoCompleteText from './components/AutoCompleteText';
 import Header from './components/Header'
-
 import Footer from './components/Footer'
 import AutoCompleteText from './components/AutoCompleteText';
 
