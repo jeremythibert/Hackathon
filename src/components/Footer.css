@@ -1,0 +1,33 @@
+.footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.contenu{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+
+}
+.copyrigth{
+    color: white;
+}
+.mentionLégale{
+    color: white;
+    margin-left: 5px;
+}
+
+.mentionLégale:hover{
+    color: grey;
+    cursor: pointer;
+}
+.lienEco{
+ position: relative;
+ right: 0px;
+}
