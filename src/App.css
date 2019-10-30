@@ -1,3 +1,7 @@
 .App{
   width: 100%;
 }
+.fond{
+  background-color: rgb(36, 35, 35);
+  height: 100vh;
+}
