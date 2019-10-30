@@ -1,0 +1,21 @@
+.but:hover {
+    letter-spacing: 0.8em;
+    background-color: #DB4E15;
+  }
+  
+  .but {
+    color: white;
+  }
+  button {
+    height: 4em;
+    width: 15%;
+    padding: 1.5em auto;
+    margin: 1em auto;
+    background-color: #ED8320;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+   
+  }
