@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+
+.smoke {
+    width: 100%;
+    height: 291px;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skull {
+    position: absolute;
+    top: 11px;
+    z-index: 2;
+    width: 277px;
+    height: 214px;
+}
+
+.title {
+    position: relative;
+    font-family: 'Nosifer', cursive;
+    align-self: center;
+    color: #E18D13;
+    margin-top: -77px;
+}
