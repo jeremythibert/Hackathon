@@ -1,14 +1,18 @@
 import React from 'react';
 import Smoke from './img/smoke.gif'
-import Logo from './img/crane.png'
+import Logo from './img/crane3.png'
 import './Header.css';
+
 
 class Header extends React.Component {
     render() {
         return(
             <>
             <img className="smoke" alt="smoke" src={Smoke}/>
-            <img className="logo" alt="logo" src={Logo}/>
+            <div className="logo">
+                <img className="skull" alt="skull" src={Logo}/>
+                <h1 className="title">LeMauvaisCoin</h1>
+            </div>
             </>
         )
     }
