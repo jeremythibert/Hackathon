@@ -1,6 +1,6 @@
 .but:hover {
     letter-spacing: 0.8em;
-    background-color: #DB4E15;
+    background-color: rgba(196, 86, 0, 1);
   }
   
   .but {
@@ -10,14 +10,15 @@
     height: 4em;
     width: 15%;
     /* padding: 1.5em auto; */
-    background-color: #ED8320;
+    background-color: rgba(225, 104, 0, 1);
     border: none;
     border-radius: 3px;
-    text-transform: uppercase;
     letter-spacing: 0.5em;
     transition: all 0.2s cubic-bezier(.4,0,.2,1);
     margin: auto;
-   
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+   margin-bottom: 30px;
   }
   #goaaal{
     margin: auto;
