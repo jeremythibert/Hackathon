@@ -19,7 +19,7 @@
           "type":"humain",
           "rating": 4.5,
           "price":7500,
-          "task":[{"task": "sortir le chien", "rating":2.4},
+          "task":[{"task": "sortirlechien", "rating":2.4},
             {"task":"faire vos courses", "rating":3.9}],
           "location":"Saint-Denis",
           "description":"Le sadisme de cet individu vous laissera pantois.",
@@ -46,7 +46,7 @@
           "rating":3.9,
           "price":900,
           "task":[{"task": "garder vos enfants", "rating":4.6},
-            {"task":"torturer", "rating":1.9}],,
+            {"task":"torturer", "rating":1.9}],
           "location":"Paris",
           "description":"Il vous suivra jusque dans votre lit.",
           "quote":"Bouh"

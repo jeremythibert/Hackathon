@@ -1,11 +1,14 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const fs = require('fs')
+const cors = require('cors')
 
 const app = express()
 
 const port = 4001
 const path = '/home/wilder/hackathon/HackHalloween/back/json/killers.json'
+
+app.use(cors())
 
 app.get('/', (req, res) => {
 
@@ -32,9 +35,11 @@ app.get('/task/:task', (req, res, err) => {
     let killers = JSON.parse(data)
     const killersFiltered = []
     killers.killer.map(killer => {
-      if(killer.task.includes(task)) {
-        killersFiltered.push(killer)
-      }
+      killer.task.map(killerTask => {
+        if(killerTask.task === task) {
+          killersFiltered.push(killer)
+        }
+      })
     })
     res.status(200).send(killersFiltered)
     
