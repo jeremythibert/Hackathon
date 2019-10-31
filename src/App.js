@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
+import AutoCompleteText from './components/AutoCompleteText';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-import Footer from './components/Footer'
 
 class App extends React.Component {
   render() {
@@ -10,7 +11,9 @@ class App extends React.Component {
       <div className="App">
         <div className="fond">
           <Header />
-          <Footer></Footer></div>
+          <AutoCompleteText/>
+          <Footer/>
+          </div>
       </div>
     )
   }
