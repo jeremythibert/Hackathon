@@ -1,14 +1,23 @@
 .achat {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    color: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: rgb(255, 255, 255);
     margin-left: auto;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 h2 {
     text-align: center;
+
 }
 
 p {
@@ -21,5 +30,6 @@ p {
     margin-left: 43%;
 }
 .facturation{
-    margin-left: 41%;
+    margin-left: 40%;
+    
 }
