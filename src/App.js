@@ -3,6 +3,7 @@ import './App.css';
 import AutoCompleteText from './components/AutoCompleteText';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Facture from './components/Facture'
 
 
 class App extends React.Component {

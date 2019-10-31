@@ -2,12 +2,16 @@ import React from 'react'
 import './Taches.css'
 import axios from 'axios'
 import Killer from './Killers'
+import Facture from './Facture'
 
 class Taches extends React.Component{
     state = {
         cards: false,
+        facture: false,
+        prix: 0,
         killers: []
     }
+
 
     handleChange = (event) => {
         
@@ -40,7 +44,7 @@ class Taches extends React.Component{
                 <div className="ten"><input className="button" type="button" name="torturervosproches" value="torturer vos proches" onClick={this.handleChange}></input></div>
             </div>
             {this.state.cards ? <div>
-                {this.state.killers.map(item => (<Killer name={item.name} image= {item.image} quote={item.quote} description={item.description} rating={item.rating} price={item.price}></Killer>))}</div> : console.log("erreur")}
+                {this.state.killers.map(item => (<div onClick={this.handleFacture}><Killer name={item.name} image= {item.image} quote={item.quote} description={item.description} rating={item.rating} price={item.price}></Killer></div>))}</div> : console.log("erreur")}
             </div>
         )
     }

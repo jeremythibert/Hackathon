@@ -1,0 +1,25 @@
+.achat {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: auto;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.squelette {
+    width: 250px;
+    height: 250px;
+    margin-left: 43%;
+}
+.facturation{
+    margin-left: 41%;
+}

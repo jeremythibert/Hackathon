@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 
 const port = 4001
-const path = '/home/tassedethe/hackathon/back/json/killers.json'
+const path = '/home/cyril/HackHalloween/back/json/killers.json'
 
 // app.use(function(req, res, next) {
 //   res.header("Access-Control-Allow-Origin", "*");
