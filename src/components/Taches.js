@@ -2,7 +2,6 @@ import React from 'react'
 import './Taches.css'
 import axios from 'axios'
 import Killer from './Killers'
-import Facture from './Facture'
 
 class Taches extends React.Component{
     state = {
