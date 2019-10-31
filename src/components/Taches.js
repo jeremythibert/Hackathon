@@ -39,6 +39,14 @@ class Taches extends React.Component{
             </div>
         )
     }
+
+// const KillerList = () => (
+        // <div>
+    //         {killer.map(killerItem =>(
+    //             <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={killerItem.price}/>
+    //         ))}
+    //     </div>
+    // )
 }
 
 export default Taches
