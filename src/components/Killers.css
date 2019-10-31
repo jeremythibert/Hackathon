@@ -19,16 +19,17 @@
    
     align-items: center;
     width: 60%;
-
+    color: white;
 }
 
 .description h3 {
     font-size: 30px;
+    color: white;
 }
 
 .killerQuote {
     font-style: italic;
-
+    color: white;
 }
 
 .killerPrice {
@@ -39,9 +40,11 @@
 
 .price {
     font-size: 30px;
+    color: white;
 }
 
 .priceNb {
     font-size: 35px;
+    color: white;
 }
 

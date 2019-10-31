@@ -1,15 +1,26 @@
+@font-face {
+    font-family: "Bleeding Freaks";
+    src: url("./fonts/BleedingFreaks.ttf");
+  }
+
 html {
   background-color: rgb(36, 35, 35);
+
 }
 
 .App{
   width: 100%;
   height: 100%;
+background-image: url("https://www.azutura.com/media/catalog/product/cache/49/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-47240_WP.jpg");
   
 }
 .fond{
   
   height: 100%;
   margin-bottom: 100px;
+}
 
+.bandeau {
+  margin: 0 200px 0 200px;
+  background-color: rgba(85, 85, 85, 0.698);
 }
