@@ -14,7 +14,7 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="contenu">
                     <span className="copyrigth">@2019 LE MAUVAIS COIN</span>
-                    <span className="mentionLégale" onClick={this.handleEvent}>-Mention Illégale-</span>
+                    <span className="mentionLégale" onClick={this.handleEvent}>-Mentions Illégales-</span>
                 </div>
                 <a className="lienEco" href="https://www.generation-net.org/fr/demarche-ecologique.html"><img src={Demarche} alt="démarche écologique"></img></a>
             </div>
