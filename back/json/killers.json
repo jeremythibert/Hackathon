@@ -6,7 +6,8 @@
           "name": "Michael Myers",
           "type": "humain",
           "price":9000,
-          "task":[{"task": "tuer", "rating":4}],
+          "task":[{"task": "tuer vos ennmis", "rating":4},
+                   {"task":"faire vos courses", "rating":3.9}],
           "location":"Grigny",
           "description":"Ses yeux vous mentiront puis ils vous détruiront.Ils vous priveront de votre innocence, de votre fierté, peut-être même de votre âme.",
           "quote":"..."
@@ -18,7 +19,8 @@
           "type":"humain",
           "rating": 4.5,
           "price":7500,
-          "task":["tuer","harceler"],
+          "task":[{"task": "sortir le chien", "rating":2.4},
+            {"task":"faire vos courses", "rating":3.9}],
           "location":"Saint-Denis",
           "description":"Le sadisme de cet individu vous laissera pantois.",
           "quote":"Jouons à un jeu."
@@ -30,7 +32,8 @@
           "type":"humain",
           "rating":4.7,
           "price":5800,
-          "task":["harceler"],
+          "task":[{"task": "torturer", "rating":2.9},
+            {"task":"kidnapper", "rating":3.3}],
           "location":"Coulommier",
           "description":"Rapide, efficace et sans trace.",
           "quote":"Toi tu refuses de me tuer par principe. Et moi, je refuse de te tuer parce que tu es tellement amusant."
@@ -42,7 +45,8 @@
           "type":"humain",
           "rating":3.9,
           "price":900,
-          "task":["tuer"],
+          "task":[{"task": "garder vos enfants", "rating":4.6},
+            {"task":"torturer", "rating":1.9}],,
           "location":"Paris",
           "description":"Il vous suivra jusque dans votre lit.",
           "quote":"Bouh"
@@ -54,7 +58,8 @@
           "type":"monstre",
           "rating":1.2,
           "price":63,
-          "task":["tuer","harceler", "coiffer"],
+          "task":[{"task": "sortir le chien", "rating":1.2},
+            {"task":"tuer", "rating":3.9}],
           "location":"Boulogne-Billancourt",
           "description":"Il se coupera les cheveux en quatre pour vous.",
           "quote":"Prends ça dans ta gue**, grognasse."
