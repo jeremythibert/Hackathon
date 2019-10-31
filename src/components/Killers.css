@@ -1,0 +1,47 @@
+.killers {
+    display:flex;
+    flex-direction: row;
+    margin: 200px;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.killerImage {
+    width: 360px;
+    height:238px;
+    border-radius: 60%;
+    border: 3px solid black;
+}
+
+.description {
+   
+    align-items: center;
+    width: 60%;
+
+}
+
+.description h3 {
+    font-size: 30px;
+}
+
+.killerQuote {
+    font-style: italic;
+
+}
+
+.killerPrice {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.priceNb {
+    font-size: 35px;
+}
+
