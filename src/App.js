@@ -11,8 +11,9 @@ class App extends React.Component {
       <div className="App">
         <div className="fond">
           <Header />
-            <AutoCompleteText></AutoCompleteText>
-          <Footer></Footer></div>
+          <AutoCompleteText/>
+          <Footer/>
+          </div>
       </div>
     )
   }

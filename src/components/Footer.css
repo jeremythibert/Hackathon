@@ -1,11 +1,13 @@
 .footer{
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: row;
-    bottom: 0px;
+    bottom: 0;
     height: auto;
     width: 100%;
     background-color: black;
+    margin-top: 4em;
+    align-self: flex-end;
 }
 .contenu{
     height: auto;
