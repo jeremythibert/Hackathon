@@ -1,6 +1,7 @@
 import React from 'react'
 import './Taches.css'
 import axios from 'axios'
+import Killer from './Killers'
 
 class Taches extends React.Component{
     state = {
@@ -25,6 +26,7 @@ class Taches extends React.Component{
         console.log(this.state);
         
         return(
+            <div>
             <div className="tableau">
                 <div className="one"><input className="button" type="button" name="cherchervosenfants" value="chercher vos enfants" onClick={this.handleChange}></input></div>
                 <div className="two"><input className="button" type="button" name="tuervosennemis" value="tuer vos ennemis" onClick={this.handleChange}></input></div>
@@ -37,16 +39,13 @@ class Taches extends React.Component{
                 <div className="nine"><input className="button" type="button" name="coiffure" value="coiffure" onClick={this.handleChange}></input></div>
                 <div className="ten"><input className="button" type="button" name="torturervosproches" value="torturer vos proches" onClick={this.handleChange}></input></div>
             </div>
+            {this.state.cards ? <div>
+                {this.state.killers.map(item => (<Killer name={item.name} image= {item.image} quote={item.quote} description={item.description} rating={item.rating} price={item.price}></Killer>))}</div> : console.log("erreur")}
+            </div>
         )
     }
 
-// const KillerList = () => (
-        // <div>
-    //         {killer.map(killerItem =>(
-    //             <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={killerItem.price}/>
-    //         ))}
-    //     </div>
-    // )
+
 }
 
 export default Taches

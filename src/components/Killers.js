@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Killer.css'
+import './Killers.css'
 
 export default class Killer extends Component {
     render() {
