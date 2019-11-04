@@ -1,0 +1,50 @@
+.killers {
+    display:flex;
+    flex-direction: row;
+    margin: 200px;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.killerImage {
+    width: 360px;
+    height:238px;
+    border-radius: 60%;
+    border: 3px solid black;
+}
+
+.description {
+   
+    align-items: center;
+    width: 60%;
+    color: white;
+}
+
+.description h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.killerQuote {
+    font-style: italic;
+    color: white;
+}
+
+.killerPrice {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.price {
+    font-size: 30px;
+    color: white;
+}
+
+.priceNb {
+    font-size: 35px;
+    color: white;
+}
+

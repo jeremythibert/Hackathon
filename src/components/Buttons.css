@@ -1,0 +1,32 @@
+.but:hover {
+    letter-spacing: 0.8em;
+    background-color: rgba(196, 86, 0, 1);
+  }
+  
+  .but {
+    color: white;
+  }
+  button {
+    height: 4em;
+    width: 15%;
+    /* padding: 1.5em auto; */
+    background-color: rgba(225, 104, 0, 1);
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    margin: auto;
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+   margin-bottom: 30px;
+  }
+  #goaaal{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+  }
+  .titre{
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+  }
